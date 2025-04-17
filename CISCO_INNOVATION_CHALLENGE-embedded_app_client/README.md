@@ -69,7 +69,7 @@ npm run deploy
 - [Webex Bot API](https://developer.webex.com/docs/bots)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/21a84532-412a-4d3d-8f57-c43f98aab7fc" width="250"/>
+  <img src="images/flow.png" alt="Flow">
 </p>
 
 #### 1. Webex Embedded App SDK 연동
@@ -139,7 +139,7 @@ await fetch("https://webexapis.com/v1/messages", {
 ### 1. kicksco 앱 접속
 
 <p align="center">
-  <img width="424" alt="image" src="https://github.com/user-attachments/assets/5b94cb3a-38c6-45bf-a2dc-f5e0871649e5"/>
+  <img src="images/app_add.png" alt="App add">
 </p>
 
 ---
@@ -147,19 +147,19 @@ await fetch("https://webexapis.com/v1/messages", {
 ### 2. 사용자가 PM 반납 후 반납 사진 전송
 
 <p align="center">
-  <img width="424" alt="image" src="https://github.com/user-attachments/assets/086a0779-7dce-4c31-9d43-40a458a75d8f"/>
+  <img src="images/app_web.png" alt="App web">
 </p>
 
 ### 2-1. 주변 불법 주차 PM 재주차 요청 메시지 수신
 
 <p align="center">
-<img width="424" alt="image" src="https://github.com/user-attachments/assets/0c93a5b8-0ad8-4c04-95fd-f892303ed4de"/>
+  <img src="images/webex_message_user.png" alt="Webex Message User">
 </p>
 
 ### 2-2. 관리자는 Webex Bot을 통해 사용자가 반납한 주차 사진 및 위치 수신
 
 <p align="center">
-<img width="1318" alt="image" src="https://github.com/user-attachments/assets/d6c58ce2-0467-44b9-ba10-6d612af7ead4" width="250"/>
+  <img src="images/webex_message_admin.png" alt="Webex Message Admin">
 </p>
 
 ---
@@ -167,13 +167,13 @@ await fetch("https://webexapis.com/v1/messages", {
 ### 3. 사용자가 불법 주차 PM 재주차 후 사진 전송
 
 <p align="center">
-<img width="424" alt="image" src="https://github.com/user-attachments/assets/e1ec9d99-fc0b-401e-b4a8-40380d628aa9"/>
+  <img src="images/webex_app_re.png" alt="Webex app resend">
 </p>
 
 ### 3-1. 관리자 확인 후 승인
 
 <p align="center">
-<img width="1318" alt="image" src="https://github.com/user-attachments/assets/43cae9c4-fc94-4e39-87c6-800b8140f2df"/>
+  <img src="images/webex_message_re.png" alt="Webex Message Admin reaccept">
 </p>
 
 ---
@@ -181,7 +181,7 @@ await fetch("https://webexapis.com/v1/messages", {
 ### 4. 관리자 승인 시 리워드 지급 및 !reward 명령어를 통한 리워드 내역 확인
 
 <p align="center">
-<img width="424" alt="image" src="https://github.com/user-attachments/assets/5b346f18-a440-4d39-8429-1ce3f259ff17"/>
+  <img src="images/user_reward.png" alt="User Reward">
 </p>
 
 ---
@@ -190,11 +190,12 @@ await fetch("https://webexapis.com/v1/messages", {
 
 - Custom Dashboard를 이용하여 PM 주차 현황 파악 및 사진 확인 가능
 <p align="center">
-<img width="1318" alt="image" src="https://github.com/user-attachments/assets/b087febf-c40f-44a3-96d9-588b49d981d5" />
+  <img src="images/custom_webpage.png" alt="Custom Webpage">
 </p>
+
 - Meraki Dashboard에서 AI 카메라 관리 및 heatmap 관찰 가능
 <p align="center">
-<img width="1318" alt="스크린샷 2025-04-14 오전 8 50 51" src="https://github.com/user-attachments/assets/4b516f9d-48f4-4881-bb1a-7e8fc6e04702" />
+  <img src="images/webex_meraki.png" alt="Webex Meraki">
 </p>
 
 ---
