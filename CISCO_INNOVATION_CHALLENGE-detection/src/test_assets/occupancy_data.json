@@ -1,0 +1,32 @@
+{
+  "_v": 1,
+  "label": "Braille Block",
+  "objects": [
+    {
+      "object_id": 12,
+      "type": "vehicle",
+      "ts_entered": 1678971542000,
+      "ts_appeared": 0,
+      "ts_exited": 0,
+      "ts_expired": 0
+    },
+
+    {
+      "object_id": 13,
+      "type": "vehicle",
+      "ts_entered": 1678971542000,
+      "ts_appeared": 0,
+      "ts_exited": 1678971742000,
+      "ts_expired": 0
+    },
+    {
+      "object_id": 14,
+      "type": "vehicle",
+      "ts_entered": 1678971542000,
+      "ts_appeared": 0,
+      "ts_exited": 1678971662000,
+      "ts_expired": 0
+    }
+  ],
+  "ts": 1678971600000
+}

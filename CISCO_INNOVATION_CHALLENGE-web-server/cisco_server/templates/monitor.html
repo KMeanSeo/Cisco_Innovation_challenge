@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>서버 모니터링 페이지</title>
+</head>
+<body>
+    <h1>서버 모니터링</h1>
+    <p>최근 객체 탐지 이벤트 목록:</p>
+    <ul>
+    {% for event in events %}
+        <li>
+            <strong>{{ event.camera_serial }}</strong> - {{ event.event_type }} at {{ event.timestamp }}<br>
+            {% if event.snapshot_url %}
+                <img src="{{ event.snapshot_url }}" alt="Snapshot" style="max-width: 200px;">
+            {% endif %}
+        </li>
+    {% empty %}
+        <li>아직 이벤트가 없습니다.</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,57 @@
+.app-wrapper {
+    padding: 2rem;
+    max-width: 500px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.app-title {
+    text-align: center;
+}
+
+.app-mode-container {
+    margin-bottom: 1rem;
+}
+
+.app-mode-label {
+    font-weight: bold;
+}
+
+.app-select {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.app-request-list {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+
+.app-request-title {
+    margin: 0 0 0.5rem 0;
+}
+
+.app-request-ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.app-request-li {
+    padding: 0.3rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.app-submit-button {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0.75rem;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

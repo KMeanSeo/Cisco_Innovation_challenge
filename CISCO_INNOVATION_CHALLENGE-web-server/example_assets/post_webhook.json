@@ -1,0 +1,19 @@
+{
+    "cameraSerial": "Q234-ABCD-5678",
+    "timestamp": "2020-12-01T12:34:56Z",
+    "eventType": "personDetection",
+    "objects": [
+      {
+        "label": "person",
+        "confidence": 0.98,
+        "boundingBox": {
+          "x": 0.1,
+          "y": 0.2,
+          "width": 0.3,
+          "height": 0.4
+        }
+      }
+    ],
+    "snapshotUrl": "https://example.com/path/to/snapshot.jpg"
+  }
+  

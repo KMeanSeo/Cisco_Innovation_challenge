@@ -1,0 +1,151 @@
+/* User.css */
+
+/* 전체 컨테이너 */
+.user-wrapper {
+    padding: 2rem;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* 헤더 영역 */
+.user-header {
+    height: 70px;
+    background-color: #A6DDF4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 로고 이미지 */
+.user-logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+/* 사용자 아이콘 버튼 */
+.user-icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+}
+
+/* 사용자 정보 영역 */
+.user-info {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* 모드 버튼 그룹 */
+.user-mode-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+/* 모드 버튼 스타일 */
+.user-mode-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.user-mode-button.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.user-mode-button.inactive {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+/* 비디오 컨테이너 */
+.video-container {
+    position: relative;
+    width: 320px;
+    margin: 0 auto 1rem;
+}
+
+/* 비디오 플레이어 */
+.video-player {
+    width: 320px;
+    height: 240px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* 캡처 버튼 */
+.capture-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* 선택한 이미지 컨테이너 */
+.selected-image-container {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* 선택된 이미지 */
+.selected-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* 재촬영 버튼 */
+.retake-button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* 조정 요청 목록 */
+.user-request-list {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+
+/* 전송 버튼 */
+.user-submit-button {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0.75rem;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

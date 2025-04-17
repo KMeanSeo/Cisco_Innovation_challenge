@@ -1,0 +1,12 @@
+{
+    "id": "example_id",
+    "roomId": "example_room_id",
+    "roomType": "group",
+    "text": "킥보드 주차 위반 이미지 첨부",
+    "files": [
+      "https://webexapis.com/v1/contents/{example_image_id}"
+    ],
+    "personId": "example_person_id",
+    "personEmail": "KICKSCO_BOT@webex.bot",
+    "created": "2025-03-29T07:45:49.734Z"
+  }

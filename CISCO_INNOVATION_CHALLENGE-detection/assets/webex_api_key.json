@@ -1,0 +1,7 @@
+{
+  "API_KEY": "YOUR_API_KEY",
+  "BOT_API_KEY": "BOT_API_KEY",
+  "ROOM_ID": "ROOM_ID",
+  "USER_EMAIL": "USER_EMAIL",
+  "BOT_EMAIL": "BOT_EMAIL"
+}

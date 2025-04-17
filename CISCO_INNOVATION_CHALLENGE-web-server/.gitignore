@@ -1,0 +1,5 @@
+cisco-venv/
+*.pyc
+*.log
+assets/
+.DS_Store
